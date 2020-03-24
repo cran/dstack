@@ -1,0 +1,14 @@
+00ccf848eb0c6db9cce618a440e3c072 *DESCRIPTION
+3c21ceb21ad2d25432b8355b82cb25ca *NAMESPACE
+4d26404973a6edaf959251182f7dce5e *R/config.R
+e4ffa9b3a1ff8a4395de644e1939672d *R/ggplot.R
+bfd874e12beec73d8faa801496b474c2 *R/stack.R
+f767343c631458dcbc9a7aff41cff499 *README.md
+85fc07364409d9eafc8408e8283e3d14 *man/commit.Rd
+97985e5605f6fbb3a2baf06ac7cecd68 *man/create_frame.Rd
+1f061fdfa2305a170e9919dbb191cabe *man/ggplot_handler.Rd
+8c618f87285835687fb0fa7761f5fe8e *man/json_protocol.Rd
+016ae7f1de71566d1157b99ddae9829b *man/push.Rd
+e1e8575715daddf26170f5b9a3f5ee72 *man/push_frame.Rd
+8e51422fde398da87e299346b45863f0 *man/yaml_config.Rd
+1848910f1761f422c21e998e714a30ee *tests/testthat/test_stack.R
