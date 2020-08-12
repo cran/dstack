@@ -1,5 +1,5 @@
 library(uuid)
-library(nanotime)
+library(bit64)
 library(rjson)
 library(httr)
 library(rlist)
@@ -12,7 +12,7 @@ library(rlist)
   if (http_error(res)) error(http_status(res)$message)
 }
 
-version <- "0.2.0"
+version <- "0.2.1"
 
 #' Create a New Frame in Stack
 #'
@@ -37,15 +37,15 @@ version <- "0.2.0"
 #' We recommend to use local (virtual) environment to install the package.
 #' You can use this command in console:
 #'
-#' \code{$ dstack config --list}
+#' \code{$ dstack config list}
 #'
 #' to list existing profiles or add or replace token by following command
 #'
-#' \code{$ dstack config --profile <PROFILE>}
+#' \code{$ dstack config add <PROFILE>}
 #'
 #' or simply
 #'
-#' \code{$ dstack config}
+#' \code{$ dstack config add}
 #'
 #' if profile is not specified 'default' profile will be created. The system asks you about token
 #' from command line, make sure that you have already obtained token from the site.
